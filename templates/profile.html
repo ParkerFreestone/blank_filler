@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> BlankFiller | Profile </title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .nav-bar {
+            width: 100vw;
+            height: 120px;
+            background: #32908F;
+            color: white;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .nav-bar > .left-column {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nav-bar > .left-column:hover {
+            cursor: default;
+        }
+
+        .nav-bar > .left-column > .logo {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.4rem;
+            color: #A3E7FC;
+            font-weight: 900;
+        }
+
+        .nav-bar > .left-column > .logo span{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 1.4rem;
+            color: #26C485;
+        }
+
+        .nav-bar > .right-column {
+            width: 60%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nav-bar > .right-column > .nav-links {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .nav-bar > .right-column > .nav-links > .link a {
+            color: #A3E7FC;
+            text-decoration: none;
+            font-weight: 700;
+            transition: 0.3s ease;
+        }
+
+        .nav-bar > .right-column > .nav-links > .link a.active {
+            color: #97b7ed;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .nav-bar > .right-column > .nav-links > .link a:hover {
+            color: #97b7ed;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+
+    </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="nav-bar">
+    <div class="left-column">
+        <div class="logo">
+            Blank <span> Filler : Your Profile </span>
+        </div>
+    </div>
+
+    <div class="right-column">
+        <div class="nav-links">
+            <div class="link">
+                <a href="/"> Home </a>
+            </div>
+            <div class="link">
+                <a class="active" href="profile"> Profile </a>
+            </div>
+            <div class="link">
+                <a href="help"> Help </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
